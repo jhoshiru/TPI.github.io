@@ -5,3 +5,33 @@
 .text-white{
     text-decoration: none;
 }
+/*section 2*/
+.icon a{
+    text-decoration: none;
+    color: black;    
+}
+#javascrip{
+    background-color: yellow;
+    color:black;
+    border-radius: 9px;
+    padding: 0 5px;
+}
+#react{
+    background-color: aqua;
+    color:white;
+    border-radius: 9px;
+    padding: 0 5px;
+}
+#negocios{
+    background-color: gray;
+    color:white;
+    border-radius: 9px;
+    padding: 0 5px;
+}
+#startup{
+    background-color: red;
+    color:white;
+    border-radius: 9px;
+    padding: 0 5px;
+
+}
