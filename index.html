@@ -13,6 +13,43 @@
 </head>
 
 <body>
+    <header>
+        <nav class="navbar navbar-expand-md navbar-dark border-bottom bg-dark">
+            <div class="container col-4 justify-content-center">
+                <a class="navbar-brand" href="#">
+                    <img src="./img/codoacodo.png" alt="Logo" width="60" height="40"
+                        class="d-inline-block align-text-top text-light">
+                    Conf Bs As
+                </a>
+            </div>
+            <div class="container justify-content-start">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapsibleNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-center" id="collapsibleNavbar">
+                    <ul class="navbar-nav" id="expandir">
+                        <li class="nav-item" id="li">
+                            <a class="nav-link active" href="#">Conferencia</a>
+                        </li>
+                        <li class="nav-item" id="li">
+                            <a class="nav-link" href="#">Oradores</a>
+                        </li>
+                        <li class="nav-item" id="li">
+                            <a class="nav-link" href="#">Lugar y Fecha</a>
+                        </li>
+                        <li class="nav-item" id="li">
+                            <a class="nav-link" href="#">Conviértete en orador</a>
+                        </li>
+                        <li class="nav-item" id="li">
+                            <a class="nav-link nav-link-green" href="#">Comprar tickets</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
     <section>
 
     </section>
@@ -99,29 +136,33 @@
                         <h6>CONVIÉRTETE EN UN</h5>
                         <h2>ORADOR</h2>
                         <h6>Anótate como orador para dar una 
-                            <a href="">charla ignite.</a> Cuentanos de qué quieres hablar
+                            <span class="puntos">charla ignite</span> Cuentanos de qué quieres hablar
                         </h6>
-                    </div>
-                    <div class="mt-4 col-md-6 ">
-                        <input type="text" class="form-control" id="inputName" placeholder="Nombre">
-                    </div>
-                    <div class="mt-4 col-md-6 ">
-                        <input type="text" class="form-control" id="inputLastName" placeholder="Apellido">
-                    </div>
-                    <div class="mt-4 col-12">
-                        <textarea class="form-control" id="relleno-form" rows="3" placeholder="Sobre que, quieres hablar?"></textarea>
-                        <h6 class="h6-form">
-                            Recuerda incluir un titulo para tu charla
-                        </h6>
-                    </div>
-                    <div class="col-12 mb-3">
-                        <button type="button" class="btn btn-success w-100 m-0 p-0">Enviar</button>
-                      </div>
+                        <div class="form-check-inline">
+                            <div class="row text-start">
+                              <div class="col-md-6 mt-2 mb-1">
+                                <input type="text" class="form-control" placeholder="Nombre">
+                              </div>
+                              <div class="col-md-6 mt-2 mb-1">
+                                <input type="text" class="form-control" placeholder="Apellido">
+                              </div>
+                              <div class="col-md-12 mt-2">
+                                <textarea class="form-control mb-0" placeholder="Sobre que quieres hablar?"></textarea>
+                                <h6 class="h6-form">
+                                    Recuerda incluir un titulo para tu charla
+                                </h6>
+                              </div>
+                            </div>
+                            <div>
+                              <button type="button" class="btn btn-success w-100 mb-3 p-0 bcolor">Enviar</button>
+                            </div>
+                        </div>
                 </div>
         </div>
             
 
     </section>
+    </main>
     <footer style="background-image: linear-gradient(to right, #12114ddc, #222381b4)">
         <div class="container">
             <section>
