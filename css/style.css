@@ -49,6 +49,36 @@
     text-decoration: underline dotted;
 } 
 /*section 1*/
-.bg-img{
-    background-image: url("../img/ba1.jpg");
+.btn-tickets{
+    color: white! important;
+    background-color: green! important;
+}
+/* .carousel-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    text-align: center;
+    color: white; */
+  
+.text-container {
+    position: absolute;
+    top: 50%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    color: #fff;
+    text-align: end;
+  }
+.parrafo1{
+    align-items: end!important;
+}
+.boton-ser-orador[
+
+]
+#btn-secondary{
+    background-color: green!important;
 }
