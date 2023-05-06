@@ -48,3 +48,7 @@
 .puntos{
     text-decoration: underline dotted;
 } 
+/*section 1*/
+.bg-img{
+    background-image: url("../img/ba1.jpg");
+}
