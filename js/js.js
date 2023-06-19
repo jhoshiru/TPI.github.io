@@ -82,6 +82,9 @@ function datosFormulario(i){
     document.getElementById("resultado").innerHTML = descuentoFinal2
 
 }
+const borrarDatos = document.getElementById("Borrar");
+
+borrarDatos.addEventListener("click",borrar)
 
 function borrar() {
     document.getElementById("nombre").value = "";
