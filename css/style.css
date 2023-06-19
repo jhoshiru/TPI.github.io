@@ -53,16 +53,6 @@
     color: white! important;
     background-color: green! important;
 }
-/* .carousel-overlay {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    z-index: 1;
-    background-color: rgba(0, 0, 0, 0.5);
-    padding: 20px;
-    text-align: center;
-    color: white; */
   
 .text-container {
     position: absolute;
