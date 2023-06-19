@@ -69,3 +69,13 @@
 #btn-secondary{
     background-color: green!important;
 }
+/* section 5 */ 
+.estudiante{
+    border-color:rgba(0, 0, 255, 0.747)!important;
+}
+.trainee{
+    border-color: rgb(0, 195, 255)!important;
+}
+.junior{
+    border-color: yellow!important;
+}
